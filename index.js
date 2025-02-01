@@ -22,7 +22,7 @@ const templatesDir = path.join(__dirname, 'templates');
 
 async function init() {
   console.log(supraArt);
-  console.log('Welcome to the supra-dapp-templates wizard 🌐');
+  console.log('Welcome to the Supra dApp Templates Wizard 🌐');
 
   const templates = fs.readdirSync(templatesDir).map(dir => ({
     name: dir,
@@ -33,8 +33,8 @@ async function init() {
     {
       type: 'input',
       name: 'projectName',
-      message: 'Enter a new project name:',
-      default: 'my-supra-dapp'
+      message: 'Enter the Name of Your Project:',
+      default: 'supra-dapp'
     },
     {
       type: 'list',
@@ -51,6 +51,7 @@ async function init() {
   fs.cpSync(templatePath, projectPath, { recursive: true });
 
   console.log(`Project ${answers.projectName} created successfully!`);
+
   console.log(`\nPlease read the README file in the selected template directory for documentation.\nFor support and additional information, visit the Supra Developer Hub: []https://github.com/Entropy-Foundation/supra-dev-hub`);
 }
 
