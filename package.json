@@ -1,0 +1,19 @@
+{
+  "name": "supra-dapp-templates",
+  "version": "1.6.0",
+  "description": "CLI to create Supra dApp templates",
+  "main": "index.js",
+  "bin": {
+    "supra-dapp-templates": "./index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+"repository": { "type": "git", "url": "https://github.com/JatinSupra/Supra-dapp-templates.git" },
+
+  "author": "JatinDevRelSupra",
+  "license": "MIT"
+}

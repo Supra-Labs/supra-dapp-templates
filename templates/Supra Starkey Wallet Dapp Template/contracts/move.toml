@@ -1,0 +1,16 @@
+[package]
+name = "SpinTheWheel"
+version = "1.0.0"
+authors = ["JatinSupra"]
+
+[addresses]
+deploy_addr = "114541106ce99b2c8ba110e99443b5ab8438a2cf6a3a8312beac2e7a8732eee0"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]

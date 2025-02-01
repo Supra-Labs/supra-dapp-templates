@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  text-align: center;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin: 10px; /* Add margin for spacing */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Material design shadow */
+}
+
+button:hover {
+  background-color: #005bb5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.wheel-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+.wheel {
+  width: 100%;
+  height: 100%;
+  border: 10px solid #ccc;
+  border-radius: 50%;
+  background: conic-gradient(#ff0000 0% 25%, #00ff00 25% 50%, #0000ff 50% 75%, #ffff00 75% 100%);
+  transition: transform 4s ease-out;
+}
+
+.spin {
+  transform: rotate(1440deg); /* 4 full spins */
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Material design shadow */
+}
+
+.social-button:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.github {
+  background-color: #333;
+}
+
+.github:hover {
+  background-color: #555;
+}
+
+.twitter {
+  background-color: #1DA1F2;
+}
+
+.twitter:hover {
+  background-color: #0D8DDC;
+}
+
+.supra-dev-hub {
+  background-color: #ff4500;
+}
+
+.supra-dev-hub:hover {
+  background-color: #cc3700;
+}
+
+.spin-the-wheel-container {
+  margin-bottom: 30px; /* Add space between button and social buttons */
+}
+
+.spin-button {
+  margin-top: 20px; /* Add space between wheel and button */
+}

@@ -1,0 +1,16 @@
+[package]
+name = "samplecoindapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+exampleAddress ="0xc3bfe8e3bb6fd26d61c74a21dc0254f3b319e0bb7474b0ca21a64e5e358ed89d"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
