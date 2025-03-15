@@ -25,8 +25,6 @@ Then follow the prompts!
 
 - **Supra SDK Dapp Template:** Sample Supra SDK and StarKey wallet dapp for a Simple to-do list.
 
-- **Token Minting Telegram Bot Tempalte:** SupraToken Telegram Bot allows users to mint tokens via Telegram command.
-
 - **Supra Starkey Wallet Dapp Template:** Spin the Wheel dapp build on Supra MoveVM Testnet with Starkey Wallet.
  
 ## Contribution
