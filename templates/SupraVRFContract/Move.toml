@@ -1,0 +1,23 @@
+[package]
+name = "SupraVRFSample"
+version = "0.0.1"
+authors = []
+
+[addresses]
+dice_addr = "YOUR_ADDRESS"
+supra_addr="0x186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e"
+ 
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dependencies.SupraVrf]
+git = "https://github.com/Entropy-Foundation/vrf-interface"
+subdir = "supra/testnet"
+rev = "testnet"  
+
+[dev-dependencies]
