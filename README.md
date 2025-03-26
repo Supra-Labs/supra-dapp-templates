@@ -27,7 +27,7 @@ Then follow the prompts!
 
 - **Supra Starkey Wallet Dapp Template:** Spin the Wheel dapp build on Supra MoveVM Testnet with Starkey Wallet.
 
-- **SupraVRFSample Template:** Template to get Started with Dapp on Supra MoveVM using Supra MoveVM.
+- **SupraVRFContract Template:** Template to get Started with Dapp on Supra MoveVM using Supra MoveVM.
  
 ## Contribution
 Feel free to contribute to this project by submitting pull requests or opening issues, all contributions that enhance the functionality or user experience of this project are welcome.
