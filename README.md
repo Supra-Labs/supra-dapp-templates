@@ -1,12 +1,12 @@
 ## Create Supra Dapp
-This package provides a starter kit for dapp developers to bootstrap easily on the Supra network. Run `npx @supranpm/supra-dapp-templates"` in your terminal to get started.
+This package provides a starter kit for dapp developers to bootstrap easily on the Supra network. Run `npx @supranpm/supra-dapp-templates` in your terminal to get started.
 
 ### Quick Start
 
 To create a Supra dapp, open your terminal, cd into the directory you’d like to create the dapp in, and run the following command:
 
 ```bash
-npx @supranpm/supra-dapp-templates"
+npx @supranpm/supra-dapp-templates
 ```
 Then follow the prompts!
 (npx comes with npm 5.2+ and higher)
