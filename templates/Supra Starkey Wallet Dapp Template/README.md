@@ -47,6 +47,4 @@ bun dev
 
 - Connecting Starkey Wallet: 
 Open the Application and Click the "Connect Wallet" button following the instructions to connect your Starkey wallet.
-
-## Contribution
-Feel free to contribute to this project by submitting pull requests or opening issues, all contributions that enhance the functionality or user experience of this project are welcome.
+ 

@@ -10,12 +10,6 @@ This project is a dapp that allows users to add and manage tasks. The tasks are 
 Node.js and npm installed on your system
 
 ### Installation
-- Clone the repository:
-
-```bash
-git clone https://github.com/JatinSupra/supra-sdk-dapp.git
-cd supra-sdk-dapp
-```
 
 - Install dependencies for the frontend:
 
@@ -37,21 +31,12 @@ npm install
 npx ts-node --project tsconfig.json src/index.ts
 ```
 
-**Example output:**
-
-<img width="720px" alt="Awesome DeepSeek Integrations" src="./frontend/src/assets/bnd.png">
-
-
 ### Running the Frontend:
 
 ```bash
 cd frontend
 npm start
 ```
-
-**Example output:**
-
-<img width="480px" alt="Awesome DeepSeek Integrations" src="./frontend/src/assets/fnd.png">
 
 ### Access the DApp:
 Open your browser and navigate to `http://localhost:3001`
@@ -90,6 +75,4 @@ The component responsible for connecting the user's StarKey wallet and setting t
 
 `index.ts`
 The backend server entry point. It initializes the Supra client and defines API endpoints for interacting with the Supra blockchain.
-
-## Contributing
-Feel free to open issues and submit pull requests for improvements and new features.
+ 
