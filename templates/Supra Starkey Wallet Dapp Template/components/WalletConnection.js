@@ -30,7 +30,7 @@ const WalletConnection = () => {
     // Add a 5-second delay before attempting to connect to the wallet
     const timeoutId = setTimeout(() => {
       connectWallet();
-    }, 3000);
+    }, 4000);
 
     // Cleanup the timeout to avoid potential memory leaks
     return () => clearTimeout(timeoutId);
