@@ -1,0 +1,16 @@
+[package]
+name = "autofiSAMPLE"
+version = "1.0.0"
+authors = []
+
+[addresses]
+your_address = "YOUR_CLI_ADDRESS"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]

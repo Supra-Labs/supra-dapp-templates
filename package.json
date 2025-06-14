@@ -1,19 +1,19 @@
 {
   "name": "@supranpm/supra-dapp-templates",
-  "version": "2.1.0",
+  "version": "3.3.0",
   "description": "CLI to create Supra dApp templates",
   "keywords": [
     "move",
     "supra",
     "web3"
   ],
-  "homepage": "https://github.com/Entropy-Foundation/Supra-dapp-templates#readme",
+  "homepage": "https://github.com/Supra-Labs/supra-dapp-templates",
   "bugs": {
-    "url": "https://github.com/Entropy-Foundation/Supra-dapp-templates/issues"
+    "url": "https://github.com/Supra-Labs/supra-dapp-templates/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Entropy-Foundation/Supra-dapp-templates.git"
+    "url": "git+https://github.com/Supra-Labs/supra-dapp-templates.git"
   },
   "license": "MIT",
   "author": "Jatin, DevRel, Supra",

@@ -26,8 +26,10 @@ Then follow the prompts!
 
 - **Supra Starkey Wallet Dapp Template:** Spin the Wheel dapp build on Supra MoveVM Testnet with Starkey Wallet.
 
-- **SupraVRFContract Template:** Template to get Started with Dapp on Supra dVRF using Supra MoveVM.
- 
+- **Supra dVRF Template:** Template to get Started with Dapp on Supra dVRF using Supra MoveVM.
+
+- **Supra Automation Template:** Template to get your first Supra Automation Task Registered for Auto Wallet Topup Usecase. 
+
 ## Contribution
 Feel free to contribute to this project by submitting pull requests or opening issues, all contributions that enhance the functionality or user experience of this project are welcome.
 
