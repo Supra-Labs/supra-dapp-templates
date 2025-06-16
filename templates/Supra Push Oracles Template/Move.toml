@@ -1,0 +1,17 @@
+[package]
+name = "pushoracle"
+version = "1.0.0"
+authors = []
+
+[addresses]
+supra_addr = "YOUR_ADDRESS"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dependencies]
+core = { git = "https://github.com/Entropy-Foundation/dora-interface", subdir = "supra/testnet/core", rev = "master" }

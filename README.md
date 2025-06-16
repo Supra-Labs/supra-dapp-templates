@@ -30,6 +30,8 @@ Then follow the prompts!
 
 - **Supra Automation Template:** Template to get your first Supra Automation Task Registered for Auto Wallet Topup Usecase. 
 
+- **Supra Push Oracles Template:** Template to integrate Supra's push oracle data feeds in Move smart contracts on Supra Move.
+
 ## Contribution
 Feel free to contribute to this project by submitting pull requests or opening issues, all contributions that enhance the functionality or user experience of this project are welcome.
 
