@@ -26,7 +26,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "inquirer": "^8.2.0"
-  },
-  "devDependencies": {}
+    "inquirer": "^8.2.7"
+  }
 }
